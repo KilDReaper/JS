@@ -1,0 +1,99 @@
+*{
+    margin: 0.5rem;
+    padding: 0;
+    background-color: brown;
+}
+
+h1{
+    margin-top: 2rem;
+    color: aqua;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    height: 4rem;
+}
+
+#personal-info{
+    color: aqua;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-content: left;
+}
+
+button{
+    background-color: #B298DC;
+      width: 100px;
+      height: 60px;
+    color: cyan;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2rem;
+    left: 22rem;
+}
+
+#resume{
+    margin: auto;
+    border-bottom: none;
+    margin-bottom: 0.2rem;
+    position: absolute;
+}
+
+#social{
+    margin: auto;
+    border-bottom: none;
+    margin-bottom: 0.2rem;
+    position: fixed;
+    bottom: 350px;
+}
+
+
+#Github{
+    margin: auto;
+    border-bottom: none;
+    margin-bottom: 0.2rem;
+    position: fixed;
+    bottom: 200px;
+    
+}
+
+#Github:hover{
+    background-image: url('9919.png');
+    height: 100px;
+    width: 200px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+#social:hover{
+    background-image: url('insta.jpg');
+        height: 100px;
+        width: 200px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+#resume:hover{
+    background-image: url('resume.png');
+        height: 100px;
+        width: 200px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+#resume-pic{
+    border-radius: 0%;
+    height: 1000px;
+    width: 1000px;
+}
+
+.hide{
+    display: none;
+}

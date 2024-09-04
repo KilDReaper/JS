@@ -1,99 +1,98 @@
-*{
-    margin: 0.5rem;
-    padding: 0;
-    background-color: brown;
+* {
+  margin: 0.5rem;
+  padding: 0;
+  background-color: #181b1e;
 }
 
-h1{
-    margin-top: 2rem;
-    color: aqua;
-    font-size: 4rem;
-    text-align: center;
-    line-height: 4rem;
-    height: 4rem;
+h1 {
+  margin-top: 2rem;
+  color: #6e3c19;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4rem;
+  height: 4rem;
 }
 
-#personal-info{
-    color: aqua;
-    text-align: left;
-    margin-top: 2rem;
+#home {
+  color: #c6ac8f;
+  text-align: left;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
 }
 
-img{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    object-fit: cover;
-    justify-content: left;
+img {
+  height: 550px;
+  width: 550px;
+  border-radius: 20%;
+  object-fit: cover;
+  align-items: center;
 }
 
-button{
-    background-color: #B298DC;
-      width: 100px;
-      height: 60px;
-    color: cyan;
-    outline: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 2rem;
-    left: 22rem;
+nav {
+  background-color: #181b1e;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+nav ul {
+  background-color: #181b1e;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
-#resume{
-    margin: auto;
-    border-bottom: none;
-    margin-bottom: 0.2rem;
-    position: absolute;
+nav ul li {
+  display: inline;
+  background-color: #181b1e;
 }
 
-#social{
-    margin: auto;
-    border-bottom: none;
-    margin-bottom: 0.2rem;
-    position: fixed;
-    bottom: 350px;
+nav ul li a {
+  background-color: #181b1e;
+  color: #A7795E;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-decoration: none;
 }
 
-
-#Github{
-    margin: auto;
-    border-bottom: none;
-    margin-bottom: 0.2rem;
-    position: fixed;
-    bottom: 200px;
-    
+nav a:hover {
+  color: beige;
+  text-decoration: underline;
+  transition: 2sec;
+}
+h2 {
+  text-align: center;
+  color: #a7795e;
 }
 
-#Github:hover{
-    background-image: url('9919.png');
-    height: 100px;
-    width: 200px;
-    font-size: 17px;
-    transition: 0.5s;
+#projects {
+    margin-top: 110px;
+  color: #a7795e;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
-#social:hover{
-    background-image: url('insta.jpg');
-        height: 100px;
-        width: 200px;
-    font-size: 17px;
-    transition: 0.5s;
+#heading {
+  color: #a7795e;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
-#resume:hover{
-    background-image: url('resume.png');
-        height: 100px;
-        width: 200px;
-    font-size: 17px;
-    transition: 0.5s;
+#pythonlink{
+    height:200px;
+    width:200px;
 }
 
-#resume-pic{
-    border-radius: 0%;
-    height: 1000px;
-    width: 1000px;
+#javalink{
+    height:200px;
+    width:200px;
 }
 
-.hide{
-    display: none;
+#jslink{
+    height:200px;
+    width:200px;
 }

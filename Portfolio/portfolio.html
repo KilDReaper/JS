@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel = "stylesheet" href = "portfolio.css">
-</head>
-<body>
-    <h1>Hello! Welcome to my portfolio</h1>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <h1>Welcome to my portfolio</h1>
     <main>
-        <div class = "Personal_Information" id = "personal-info">
-            <img src = "pic.jpg">
-            <button id="resume" onclick="window.open('file:///C:/Users/aayam/AppData/Local/Microsoft/Windows/INetCache/IE/FFHX8EW8/Aayam-Pokhrel-cv[1].pdf', '_blank')">Resume</button>
-            <button id="social" onclick="window.open('https://www.instagram.com/buzzy_riwaj/', '_blank')">Socials</button>
-            <button id="Github" onclick="window.open('https://github.com/KilDReaper', '_blank')">GitHub</button>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#personal-info">Contact Me</a></li>
+          <li><a href="#personal-info">Hire Me</a></li>
+        </ul>
+      </nav>
+      <p id="heading"><b>Home</b></p>
+      <div class="Home" id="home">
+        <img src="pic.jpg" />
+        <p>
+          I'm currently studying for a B(hons.) in Computing from Coventry
+          University at Softwarica College. My academic journey has been a mix
+          of both theory and hands-on projects, giving me a solid grounding in
+          software development, data analysis, and project management.
+          Throughout my studies, I've had the chance to work with various
+          technologies, such as Python for data visualization, MySQL Workbench
+          for SQL queries, Visual Paradigm for ER diagrams, and Excel for data
+          normalization. I'm passionate about creating efficient, user-centered
+          solutions, and I'm always eager to learn new skills and adapt to
+          different challenges. Beyond my technical skills, I've also had the
+          opportunity to lead projects using agile methodologies. As the Scrum
+          Master for the LED project, I honed my abilities in teamwork, task
+          organization, and team management, which has been a valuable
+          experience in my development.
+        </p>
+      </div>
+      <div class="Projects" id="projects">
+        <p><b>My Projects:</b></p>
+        <div class="project_link">
+            <img type = "button" src="pythonlogo.jpeg"  id = "pythonlink">
+            <img type = "button" src="Java-Logo.png"  id = "javalink">
+            <img type = "button" src="javascript-logo.png"  id = "jslink">
+          </div>
+      </div>
+      
 
-            
-            <p>My name is Aayam Pokhrel from Kathmandu,Nepal and I'm pursuing my under-graduate degree from Softwarica College which is affiliated to coventry university 
-                <br>I'm currently residing with my parents and grandparents in Chabahil,Kathmandu.
-            
-            </p>
-        </div>
-        
     </main>
-    <script src = "portfolio.js"></script>
-</body>
+    <script src="portfolio.js"></script>
+  </body>
 </html>

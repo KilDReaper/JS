@@ -19,6 +19,7 @@ h1 {
   margin-top: 2rem;
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 img {
@@ -59,7 +60,8 @@ nav ul li a {
 nav a:hover {
   color: beige;
   text-decoration: underline;
-  transition: 2sec;
+  transition: 0.5s;
+
 }
 h2 {
   text-align: center;
@@ -85,14 +87,37 @@ h2 {
 #pythonlink{
     height:200px;
     width:200px;
+    margin-right: 100px;
 }
 
 #javalink{
     height:200px;
     width:200px;
+    margin-right: 100px;
 }
 
 #jslink{
     height:200px;
     width:200px;
+}
+
+#pythonlink:hover{
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+#javalink:hover{
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+#jslink:hover{
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
 }
